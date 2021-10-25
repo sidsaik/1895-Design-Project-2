@@ -11,7 +11,6 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 int input = digitalRead(8);
-
   
   if(input==HIGH){
   digitalWrite(5, HIGH);
